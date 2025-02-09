@@ -54,3 +54,12 @@ let customers = ["Alice", "Bob", "Charlie", "David"]; //Create array of customer
 let locatedCustomer = customers.find(name => name === "Charlie"); //Locate customer Charlie
 
 console.log("Located Customer:", locatedCustomer); //Log located customer
+
+//Task 8 - Function Declaration
+function calculateTax(amount, taxRate) {
+    let tax = amount * taxRate;
+    console.log('Tax: $${tax}');
+    return tax;
+}; // Calculate tax
+
+calculateTax(100, 0.07); //Numbers for calculating tax
