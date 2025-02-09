@@ -27,3 +27,9 @@ cartItems.push("Water"); //Add a new product to array
 cartItems.pop(); //Remove last product from array
 cartItems.unshift("Ketchup"); //Add new product to the start of array
 cartItems.shift(); //Remove first product from array
+
+//Task 4 - Map Method
+let prices = [100, 200, 300]; //Declare an array of prices
+let discountedPrices = prices.map(price => price * .9); //Applying discount
+
+console.log("Discounted Price:", discountedPrices); //Log discounted price
