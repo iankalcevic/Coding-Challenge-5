@@ -47,3 +47,10 @@ let sales =[500, 300, 200, 400]; //Declare array of sales
 let totalRevenue = sales.reduce((acc, sale) => acc + sale, 0); //Add up sales
 
 console.log("Total Revenue:", totalRevenue); //Log total revenue
+
+//Task 7 - find() Method
+let customers = ["Alice", "Bob", "Charlie", "David"]; //Create array of customers
+
+let locatedCustomer = customers.find(name => name === "Charlie"); //Locate customer Charlie
+
+console.log("Located Customer:", locatedCustomer); //Log located customer
