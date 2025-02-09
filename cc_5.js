@@ -40,3 +40,10 @@ let inventory = [5, 0, 12, 8, 0]; //Create array
 let availableProducts = inventory.filter(quantity => quantity > 0); //Remove quantities of 0
 
 console.log("Products available:", availableProducts); //Log available products
+
+//Task 6 - Reduce Method
+let sales =[500, 300, 200, 400]; //Declare array of sales
+
+let totalRevenue = sales.reduce((acc, sale) => acc + sale, 0); //Add up sales
+
+console.log("Total Revenue:", totalRevenue); //Log total revenue
