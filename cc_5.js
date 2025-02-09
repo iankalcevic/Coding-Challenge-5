@@ -68,6 +68,16 @@ calculateTax(100, 0.07); //Numbers for calculating tax
 let applyDiscount = function(price, discount) {
     let discountedPrice = price - (price * discount);
     console.log('Discounted Price: $${discountedPrice}');
+
+    
+//Task 10 - Arrow Function
+let calculatePoints = (purchaseAmount) => {
+    let points = Math.floor(purchaseAmount / 10);
+    console.log("Loyalty Points:", points);
+    return points; //Create a loyalty point function
+};
+
+calculatePoints(100); //Numbers for points
     return discountedPrice; //Create a function to apply a discount
 };
 
