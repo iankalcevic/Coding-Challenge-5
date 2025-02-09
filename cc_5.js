@@ -7,3 +7,15 @@ let customer = {
 console.log('Name: ${customer.name}'); //Log customer name
 console.log('Age: ${customer.age}'); //Log customer age
 console.log('Email: ${customer.name}'); //Log customer age
+
+//Task 2 - Object Methods
+let order = {
+    orderID: 12345,
+    totalAmount: 150,
+    staus: "Processing",
+    
+    displayOrder: function() {
+        console.log('Order ID: ${this.orderID}, Amount: $${this.totalAmount}, Status: ${this.status}');
+    }
+}; 
+order.displayOrder(); //Log order details
