@@ -19,3 +19,11 @@ let order = {
     }
 }; 
 order.displayOrder(); //Log order details
+
+//Task 3 - Array Manipulation
+let cartItems = ["Milk", "Bread", "Eggs"]; //Array of three items
+
+cartItems.push("Water"); //Add a new product to array
+cartItems.pop(); //Remove last product from array
+cartItems.unshift("Ketchup"); //Add new product to the start of array
+cartItems.shift(); //Remove first product from array
